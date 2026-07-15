@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datos sensibles
+*.csv
+*.xlsx
+*.xls
+!Data/esquema_datos_comunes.txt
+
+# IDE
+.vscode/
+.idea/

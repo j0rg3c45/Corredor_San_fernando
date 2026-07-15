@@ -1,0 +1,19 @@
+# Esquema de Datos Comunes — San Fernando ITT
+
+## Campos estandarizados
+
+| Campo           | Tipo       | Descripción                          | Obligatorio |
+|-----------------|------------|--------------------------------------|-------------|
+| id              | int        | Identificador único del registro     | Sí          |
+| nombre          | str        | Nombre del elemento                  | Sí          |
+| categoria       | str        | Clasificación o tipo                 | Sí          |
+| latitud         | float      | Coordenada latitud (WGS84)          | No          |
+| longitud        | float      | Coordenada longitud (WGS84)         | No          |
+| fecha_registro  | date       | Fecha de captura del dato            | Sí          |
+| fuente          | str        | Origen del dato                      | Sí          |
+| observaciones   | str        | Notas adicionales                    | No          |
+
+## Notas
+- Sistema de coordenadas: EPSG:4326 (WGS84).
+- Formato de fecha: YYYY-MM-DD.
+- Codificación de archivos: UTF-8.
